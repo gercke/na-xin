@@ -182,7 +182,6 @@ $('.register-register-submit').on('click', function () {
                 })
             }
         }
-
         xhr.setRequestHeader('Content-type', 'application/json') // 请求头根据接口文档设置
 
         xhr.send(JSON.stringify(data))
